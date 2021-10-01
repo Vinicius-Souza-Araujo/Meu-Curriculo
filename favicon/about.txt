@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Russo One
+- Font Author: Copyright (c) 2011-2012, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name "Russo"
+- Font Source: http://fonts.gstatic.com/s/russoone/v9/Z9XUDmZRWg6M1LvRYsH-yMOInrib9Q.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)

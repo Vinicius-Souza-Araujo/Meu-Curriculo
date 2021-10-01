@@ -1,0 +1,342 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    font-family: consolas ; 
+    text-decoration: none;
+    
+}
+header{
+    background-color: rgb(45, 45, 49);
+}
+body{
+    background-image: url(../image/Dev.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
+
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   
+   
+    
+    
+}
+.cursor{
+    animation-name: cursor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes cursor{
+ 0% {color:  rgb(45, 45, 49);} 
+ 50% {color:transparent;}
+ 100% {color:  rgb(45, 45, 49);}
+}
+footer{
+    
+    color: white;
+    font-size: 150%;
+    background-color: rgb(45, 45, 49);
+    
+}
+
+.layout{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items:center;    
+}
+
+a{
+    font-size: 150%;
+    color: white;
+}
+
+p, li{
+    font-size: 120%
+}
+
+.conteúdodoheader{
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+
+
+ul{
+  padding: 20px;
+
+}
+
+.ListaDasCompetências{
+    width: 1500px; 
+    padding: 20px;
+}
+
+.sobremim{
+    background-color: rgb(45, 45, 49); ;
+    display: inline-block;
+    color: white;
+    margin: 20px;
+    
+}
+
+.container1{
+    background-color: rgb(45, 45, 49); ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+   width: 650px;
+    height: 200px ;
+    opacity: 0.94;
+}
+
+.container2{
+    background-color: rgb(45, 45, 49);
+    color: white; 
+    border-radius: 10px;
+    opacity: 0.94;
+    display: flex;
+    justify-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 870px;
+    height: 120px ;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    
+    
+    
+    
+}
+
+.container3{
+    background-color: rgb(45, 45, 49);
+    color: white; 
+    border-radius: 10px;
+    opacity: 0.94;
+    display: flex;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    width: 970px;
+    height: 870px ;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px; 
+}
+
+.etec{
+    width: 25%;
+        text-align: center;
+       
+        border-radius: 10px;
+        padding: 20px;
+        background-color: rgb(45, 45, 49);
+        color: white;
+        opacity: 0.94; 
+        margin-top: 20px;
+}
+        .senai{
+            width: 25%;
+                text-align: center;
+                
+                margin-top: 50px;
+                border-radius: 10px;
+                padding: 20px;
+                background-color: rgb(45, 45, 49);
+                color: white;
+                opacity: 0.94; 
+}
+
+#acadêmico{
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(45, 45, 49);
+    color: white;
+    opacity: 0.94; 
+}
+    
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+    
+#Vinicius{
+    border-radius: 50%;    
+}
+
+.barra1{
+    
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: darkgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.barradeprogresso1{
+    
+    height: 5px;
+    width: 90%;
+    border-radius: 20px;background-color: rgb(155, 82, 214);
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.barra2{
+    
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: darkgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.barradeprogresso2{
+    
+    height: 5px;
+    width: 70%;
+    border-radius: 20px;background-color: rgb(155, 82, 214);
+}
+
+.barra3{
+    
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: darkgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.barradeprogresso3{
+    
+    height: 5px;
+    width: 30%;
+    border-radius: 20px;background-color: rgb(155, 82, 214);
+}
+
+.barra4{
+   
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: darkgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.barradeprogresso4{
+    
+    height: 5px;
+    width: 30%;
+    border-radius: 20px;background-color: rgb(155, 82, 214);
+}
+
+.barra5{
+    
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: darkgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.barradeprogresso5{
+    
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: rgb(155, 82, 214);
+}
+
+.barra6{
+    
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: darkgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.barradeprogresso6{
+    
+    height: 5px;
+    width: 60%;
+    border-radius: 20px;background-color: rgb(155, 82, 214);
+}
+
+.barra7{
+    
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: darkgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.barradeprogresso7{
+    
+    height: 5px;
+    width: 95%;
+    border-radius: 20px;background-color: rgb(155, 82, 214);
+}
+
+.barra8{
+   
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: darkgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.barradeprogresso8{
+    
+    height: 5px;
+    width: 95%;
+    border-radius: 20px;background-color: rgb(155, 82, 214);
+}
+
+.barra9{
+   
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: darkgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.barradeprogresso9{
+    
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;background-color: rgb(155, 82, 214);
